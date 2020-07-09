@@ -8,7 +8,7 @@ import Home from "./home";
 import About from "./about";
 import Work from "./work";
 import Contact from "./contact";
-import {Toolbar, Box} from '@material-ui/core';
+import {Box} from '@material-ui/core';
 
 //This React class acts as the navigation of the application
 //It puts a link on a list element and in a div below assigns the components that the links go to
@@ -16,7 +16,6 @@ class Main extends Component {
   render() {
     return (
       <Box position="static">
-        <Toolbar class="navigation">
         <HashRouter>
           <ul className="header">
             <li><NavLink exact to="/">Home</NavLink></li>
@@ -24,14 +23,13 @@ class Main extends Component {
             <li><NavLink to="/work">Work</NavLink></li>
             <li><NavLink to="/contact">Contact</NavLink></li>
           </ul>
-          <div className="content">
+          <Box className="content">
             <Route exact path="/" component={Home}/>
             <Route path="/about" component={About}/>
             <Route path="/work" component={Work}/>
             <Route path="/contact" component={Contact}/>
-          </div>
+          </Box>
           </HashRouter>
-        </Toolbar>
       </Box>
     );
   }
