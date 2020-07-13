@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import forest_illustration from './pictures/forest_illustration.png';
+import forest_illustration_mobile from './pictures/forest_illustration_mobile.png';
 import { Box } from '@material-ui/core';
 
 class Home extends Component {
@@ -14,6 +15,7 @@ class Home extends Component {
 
       <Box className="footer">
     <img className="footerimg" src={forest_illustration} alt="" />
+    <img className="footerimg_mobile" src={forest_illustration_mobile} alt="" />
       </Box>
 
 </Box>

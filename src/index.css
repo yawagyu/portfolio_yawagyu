@@ -1,6 +1,5 @@
 body {
   background-color: white;
-  /* padding: 20px; */
   margin: 0;
 }
 h1, h2, p, ul, li {
@@ -26,11 +25,10 @@ ul.header {
   display: inline-block;
   margin-left: 3vw;
   margin-right: 3vw;
-  font-size:2vw;
+  font-size:1.6vw;
 }
 .content {
   background-color: #FFF;
-  /* padding: 20px; */
   color: black;
 }
 
@@ -44,6 +42,10 @@ ul.header {
   position: absolute;
   bottom:0;
   background-color: black;
+}
+
+.footerimg_mobile{
+  display:none;
 }
 
 img{
@@ -62,4 +64,23 @@ h2 {
 
 p{
   font-size: 1.5vw;
+}
+
+/* Mobile only fontsizes */
+@media only screen and (max-width: 600px) {
+  h2 {
+    font-size: 6.8vw;
+  }
+  P {
+    font-size: 3.6vw;
+  }
+  .header li a {
+    font-size: 3.2vw;
+  }
+  /* .footerimg{
+    display:none;
+  }
+  .footerimg_mobile{
+    display:block;
+  } */
 }
