@@ -44,6 +44,10 @@ ul.header {
   background-color: black;
 }
 
+.footerimg_mobile{
+  display:none;
+}
+
 img{
   width:100%;
 }
@@ -60,4 +64,23 @@ h2 {
 
 p{
   font-size: 1.5vw;
+}
+
+/* Mobile only fontsizes */
+@media only screen and (max-width: 600px) {
+  h2 {
+    font-size: 6.8vw;
+  }
+  P {
+    font-size: 3.6vw;
+  }
+  .header li a {
+    font-size: 3.2vw;
+  }
+  .footerimg{
+    display:none;
+  }
+  .footerimg_mobile{
+    display:block;
+  }
 }
