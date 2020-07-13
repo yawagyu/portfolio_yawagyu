@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import forest_illustration from './pictures/forest_illustration.png';
-import forest_illustration_mobile from './pictures/forest_illustration_mobile.png';
+import forest_illustration from './pictures/forest_illustration_transparent.png';
+import forest_illustration_mobile from './pictures/forest_illustration_mobile_transparent.png';
 import { Box } from '@material-ui/core';
 
 class Home extends Component {
