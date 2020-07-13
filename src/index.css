@@ -77,10 +77,10 @@ p{
   .header li a {
     font-size: 3.2vw;
   }
-  .footerimg{
+  /* .footerimg{
     display:none;
   }
   .footerimg_mobile{
     display:block;
-  }
+  } */
 }
